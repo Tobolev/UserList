@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background-image: linear-gradient(
+    to right,
+    #dbfff9 0%,
+    #9788fa 51%,
+    #bff7ee 100%
+  );
+}
