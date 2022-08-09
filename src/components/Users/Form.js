@@ -1,7 +1,7 @@
 import styles from "./Form.module.css";
 import Button from "../UI/Button.js";
 import Card from "../UI/Card";
-import React, { useState } from "react";
+import React, { useState, Fragment } from "react";
 import ErrorModal from "../UI/ErrorModal";
 
 const Form = (props) => {
@@ -44,7 +44,7 @@ const Form = (props) => {
   };
 
   return (
-    <div>
+    <Fragment>
       {error && (
         <ErrorModal
           onCloseModal={errorHandler}
@@ -77,7 +77,7 @@ const Form = (props) => {
           </div>
         </form>
       </Card>
-    </div>
+    </Fragment>
   );
 };
 
